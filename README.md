@@ -6,7 +6,7 @@
 
 <div align="center">
   
-  <a href="https://lihatwebsite.com">
+  <a href="https://desa-senang.my.id">
     <img title="Lihat Website" src="https://img.shields.io/badge/Lihat%20Website-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
 </div>
