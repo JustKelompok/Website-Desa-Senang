@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.marquee-container {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.1);
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.content-box {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.section-title {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.profil-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.profil-img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.profil-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.highlight-box {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-left: 5px solid #3498db;
+  border-radius: 5px;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.data-card {
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.data-card i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #3498db;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .profil-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero-img-wrapper {
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  background: #eee;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-img-wrapper {
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  background: #eee;
+}
+.wa-desc {
+  text-align: center;
+  color: #222;
+  background: rgba(255,255,255,0.85);
+  margin-top: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+.wa-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #25d366;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 32px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transition: background 0.2s;
+  z-index: 3;
+}
+
+.wa-btn:hover {
+  background: #128c7e;
+}
+
+.wa-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+.contact-info {
+  background: #3498db;
+  border-left: 6px solid #1079c0;
+  box-shadow: 0 4px 16px rgba(46,139,87,0.12);
+  padding: 28px 36px;
+  margin-bottom: 24px;
+  color: #ffffff;
+  position: relative;
+  min-height: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 0;
+  z-index: 2;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info .row {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info .col-md-4 {
+  flex: 1 1 0;
+  min-width: 220px;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.map h2 {
+  text-align: center;
+}
+
+.map iframe {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.footer-sosmed {
+  background: linear-gradient(90deg, #005baa 0%, #00b4d8 100%);
+  color: #fff;
+  padding: 32px 0 16px 0;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1000px;
+  margin: 0 auto 16px auto;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  min-width: 180px;
+  text-align: center;
+}
+
+.footer-col h4 {
+  margin-bottom: 12px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+.footer-col a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 1.5em;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: #ffd700;
+}
+
+.qr-scan {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 6px;
+}
+
+.footer-kominfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+.kominfo-logo {
+  height: 32px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.aparatur-scroll {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      scroll-snap-type: x mandatory;
+      padding-bottom: 1rem;
+    }
+    .aparatur-scroll .card {
+      flex-shrink: 0;
+      min-width: 250px;
+      scroll-snap-align: start;
+      background: #FBFBFB;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      padding: 1rem;
+      text-align: center;
+    }
+    .aparatur-scroll .card img {
+      width: 190px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 0 auto 1rem;
+    }
+    .aparatur-scroll .card .name {
+      font-weight: bold;
+      font-size: 1rem;
+      color: #333;
+    }
+    .aparatur-scroll .card .jabatan {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .aparatur-scroll .card .status {
+      background-color: #e53e3e;
+      color: #fff;
+      font-size: 12px;
+      padding: 0.3rem 0.7rem;
+      border-radius: 9999px;
+      margin-top: 0.5rem;
+      display: inline-block;
+    }
