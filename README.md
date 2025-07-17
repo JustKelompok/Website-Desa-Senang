@@ -15,11 +15,11 @@
 
 <div align="center">  
   
-  <img title="ArugaZ" src="https://img.shields.io/badge/AUTHOR-Muh Zacky Raihan.S-blue.svg?style=for-the-badge&logo=github"></a><br>
-  <img title="ArugaZ" src="https://img.shields.io/badge/AUTHOR-Hilda Nurul Hidayat-blue.svg?style=for-the-badge&logo=github"></a><br>
-  <img title="ArugaZ" src="https://img.shields.io/badge/AUTHOR-Mayrella D. Patioran-blue.svg?style=for-the-badge&logo=github"></a><br>
-  <img title="ArugaZ" src="https://img.shields.io/badge/AUTHOR-Kurnia Aljawari-blue.svg?style=for-the-badge&logo=github"></a><br>
-  <img title="ArugaZ" src="https://img.shields.io/badge/AUTHOR-Chakty Theo-blue.svg?style=for-the-badge&logo=github"></a>
+  <img title="Zacky" src="https://img.shields.io/badge/AUTHOR-Muh Zacky Raihan.S-blue.svg?style=for-the-badge&logo=github"></a><br>
+  <img title="Hilda" src="https://img.shields.io/badge/AUTHOR-Hilda Nurul Hidayat-blue.svg?style=for-the-badge&logo=github"></a><br>
+  <img title="Mayrella" src="https://img.shields.io/badge/AUTHOR-Mayrella D. Patioran-blue.svg?style=for-the-badge&logo=github"></a><br>
+  <img title="Kurnia" src="https://img.shields.io/badge/AUTHOR-Kurnia Aljawari-blue.svg?style=for-the-badge&logo=github"></a><br>
+  <img title="Chakty" src="https://img.shields.io/badge/AUTHOR-Chakty Theo-blue.svg?style=for-the-badge&logo=github"></a>
   
 </div>
 
@@ -29,8 +29,20 @@
   
 ### Bahasa yang Digunakan
 
-  Statistik penggunaan bahasa dalam repositori ini:
-
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JustKelompok&layout=compact&theme=default&repo=Website-Desa-Senang)
+
+</div>
+
+<div align="center">
+
+---
+
+### Powered by
+
+<a href="http://www.desa-senang.my.id/">
+    <img title="Lihat Website" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/1200px-Cloudflare_Logo.svg.png" width="200px"></a><br>
+
+<a href="http://www.desa-senang.my.id/">
+    <img title="Lihat Website" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaJ1bf8po3yGKfR6-nMlognAHPauC9tKb7PA&s" width="200px"></a>
 
 </div>
