@@ -39,10 +39,10 @@
 
 ### Powered by
 
-<a href="http://www.desa-senang.my.id/">
-    <img title="Lihat Website" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/1200px-Cloudflare_Logo.svg.png" width="200px"></a><br>
+<a href="https://www.cloudflare.com/">
+    <img title="Cloudflare" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/1200px-Cloudflare_Logo.svg.png" width="200px"></a><br>
 
-<a href="http://www.desa-senang.my.id/">
-    <img title="Lihat Website" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaJ1bf8po3yGKfR6-nMlognAHPauC9tKb7PA&s" width="200px"></a>
+<a href="https://www.exabytes.co.id/">
+    <img title="Exabytes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaJ1bf8po3yGKfR6-nMlognAHPauC9tKb7PA&s" width="200px"></a>
 
 </div>
